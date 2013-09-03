@@ -1,0 +1,23 @@
+1. Went to github repo for makersquare/git-lession
+2. Forked repo into my account
+3. cd'd into folder
+4. git clone http://github.com/myuser/git-lesson
+5. (git claim) - if on shared / or git config --global user.name "my name" // git config --global user.email emailaddress@com.come --> if on your own computer (only have to do once on your own computer)
+6. from command line opened the file math.txt and edited the math
+7. git add math.txt - this added it to the staging
+8. git diff - showed us the actual changes in the text
+9. git status - to see the changes had been added to stage
+10. git commit -m "commit message" -- this put the staged file and committed it locally 
+11. git log - to show the commits locally and globally from the cloned repo's history
+12. git diff - showed us the actual changes in the text
+13. subl list.txt - opened up the list of world populations
+14. fixed the population error in that file
+15. then committed that too with a new message
+16. then ran $ git push origin master - which sends it up to github - origin tells to push where it was cloned from - master is the branch to push
+17. went to github and the original repo - makersquare/git-lesson
+    - then clicked on small green button to create pull request (says "Compare and review" on hover)
+    - then on the next screen click compare across forks at the top 
+    - that opens up the place to type the details for that pull request and has the title from your commit message
+    - click the big green button call "Send pull request"
+    - that pull is created for the original user 
+
